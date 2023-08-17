@@ -1,0 +1,319 @@
+{
+  "Hollywood": [
+    {
+      "id": "Action",
+      "data": [
+        {
+          "id": 1,
+          "name": "Jason Bourne Series",
+          "year": 2002,
+          "rating": 7.3,
+          "url": "https://mkvcinemas.bio/mission-impossible-all-parts-collection-part-1-2-3-4-5-brrip-hindi-english-tamil-400mb-480p-700mb-720p/"
+        },
+        {
+          "id": 2,
+          "name": "Mission Impossible Series",
+          "year": 1996,
+          "rating": 7.2,
+          "url": "https://mkvcinemas.bio/mission-impossible-all-parts-collection-part-1-2-3-4-5-brrip-hindi-english-tamil-400mb-480p-700mb-720p/"
+        },
+        {
+          "id": 3,
+          "name": "John Wick Series",
+          "year": 2014,
+          "rating": 7.4,
+          "url": "https://mkvcinemas.bio/?s=John+wick+"
+        },
+        {
+          "id": 4,
+          "name": "Top Gun Maverick",
+          "year": 2022,
+          "rating": 8.3,
+          "url": "https://mkvcinemas.bio/top-gun-maverick-2022-movie-bluray-dual-audio-hindi-eng-480p-720p-1080p-b/"
+        },
+        {
+          "id": 5,
+          "name": "Ambulance",
+          "year": 2022,
+          "rating": 6.1,
+          "url": "https://mkvcinemas.bio/ambulance-2022-movie-webrip-english-esub-480p-720p-1080p-2160p/"
+        }
+      ]
+    },
+    {
+      "id": "Thriller",
+      "data": [
+        {
+          "id": 1,
+          "name": "Taken",
+          "year": 2009,
+          "rating": 7.8,
+          "url": "https://mkvcinemas.bio/taken-2008-movie-bluray-english-esub-250mb-480p-800mb-720p-3gb-7gb-1080p"
+        },
+        {
+          "id": 2,
+          "name": "Fall",
+          "year": 2022,
+          "rating": 6.4,
+          "url": "https://mkvcinemas.bio/fall-2022-movie-bluray-english-esub-480p-720p-1080p-2160p-a/"
+        },
+        {
+          "id": 3,
+          "name": "Shutter Island",
+          "year": 2010,
+          "rating": 8.2,
+          "url": "https://mkvcinemas.bio/shutter-island-2010-movie-brrip-dual-audio-hindi-eng-400mb-480p-1gb-720p"
+        },
+        {
+          "id": 4,
+          "name": "The Revanent",
+          "year": 2015,
+          "rating": 8.0,
+          "url": "https://seris.480ptvseris.com/the-revenant-2015-500mb-full-hindi-dual-audio-movie-download-480p-bluray/"
+        },
+        {
+          "id": 5,
+          "name": "The Dark Knight",
+          "year": 2008,
+          "rating": 9,
+          "url": "https://mkvcinemas.bio/batman-all-parts-collection-part-1-3-brrip-dual-audio-hindi-eng-300mb-480p-1gb-720p/"
+        }
+      ]
+    },
+    {
+      "id": "Comedy",
+      "data": [
+        {
+          "id": 1,
+          "name": "Vacation",
+          "year": 2015,
+          "rating": 6.1,
+          "url": "https://filesku.us/file/367595582"
+        },
+        {
+          "id": 2,
+          "name": "Dictator",
+          "year": 2012,
+          "rating": 6.4,
+          "url": "https://mkvcinemas.bio/the-dictator-2012-movie-brrip-unrated-dual-audio-hindi-eng-300mb-480p-700mb-720p-1-7gb-1080p/"
+        },
+        {
+          "id": 3,
+          "name": "Hot tub time",
+          "year": 2010,
+          "rating": 6.4,
+          "url": "https://drivefire.co/file/419921530"
+        },
+        {
+          "id": 4,
+          "name": "Jumanji:The next level",
+          "year": 2019,
+          "rating": 6.7,
+          "url": "https://mkvcinemas.bio/jumanji-the-next-level-2019-movie-bluray-dual-audio-hindi-eng-300mb-480p-1gb-720p-i/"
+        },
+        {
+          "id": 5,
+          "name": "We are the millers",
+          "year": 2013,
+          "rating": 7.0,
+          "url": "https://mkvcinemas.bio/were-the-millers-2013-movie-brrip-dual-audio-hindi-eng-300mb-480p-1gb-720p/"
+        }
+      ]
+    },
+    {
+      "id": "Horror",
+      "data": [
+        {
+          "id": 1,
+          "name": "Quiet Place",
+          "year": 2018,
+          "rating": 7.5,
+          "url": "http://mkvcinemas.bio/a-quiet-place-2018-movie-brrip-dual-audio-hindi-eng-300mb-480p-900mb-720p/"
+        },
+        {
+          "id": 2,
+          "name": "Lights out",
+          "year": 2016,
+          "rating": 6.3,
+          "url": "https://mkvcinemas.bio/lights-out-2016-movie-brrip-dual-audio-hindi-eng-esub-300mb-480p-700mb-720p/"
+        },
+        {
+          "id": 3,
+          "name": "Wrong Turn",
+          "year": 2003,
+          "rating": 6.1,
+          "url": "https://mkvcinemas.bio/wrong-turn-2003-brrip-dual-audio-hindi-eng-esub-300mb-480p-hd-720p/"
+        },
+        {
+          "id": 4,
+          "name": "Howl",
+          "year": 2015,
+          "rating": 5.5,
+          "url": "https://mkvcinemas.bio/howl-2015-movie-brrip-dual-audio-hindi-eng-300mb-480p-800mb-720p/"
+        }
+      ]
+    }
+  ],
+  "Bollywood": [
+    {
+      "id": "Action",
+      "data": [
+        {
+          "id": 1,
+          "name": "Dhoom",
+          "year": 2004,
+          "rating": 6.6,
+          "url": "https://mkvcinemas.bio/dhoom-all-parts-collection-bluray-hindi-300mb-480p-1gb-720p-4gb-15gb-1080p/"
+        },
+        {
+          "id": 2,
+          "name": "Pathaan",
+          "year": 2023,
+          "rating": 5.9,
+          "url": "https://mkvcinemas.bio/pathaan-2023/"
+        },
+        {
+          "id": 3,
+          "name": "Commando",
+          "year": 2013,
+          "rating": 6.7,
+          "url": "https://mkvcinemas.bio/commando-a-one-man-army-2013-hindi-movie-bluray-300mb-480p-900mb-720p-3gb-8gb-9gb-1080p-b/"
+        },
+        {
+          "id": 4,
+          "name": "Singham",
+          "year": 2011,
+          "rating": 6.8,
+          "url": "https://mkvcinemas.bio/singham-2011-brrip-300mb-480p-mkv/"
+        },
+        {
+          "id": 5,
+          "name": "Rocky handsome",
+          "year": 2016,
+          "rating": 6.8,
+          "url": "https://youtu.be/oNqCzA7b87Q"
+        }
+      ]
+    },
+    {
+      "id": "Thriller",
+      "data": [
+        {
+          "id": 1,
+          "name": "Andhadhun",
+          "year": 2018,
+          "rating": 8.2,
+          "url": "https://mkvcinemas.bio/andhadhun-2018-hindi-movie-bluray-300mb-480p-1gb-720p-h/"
+        },
+        {
+          "id": 2,
+          "name": "A Wednesday",
+          "year": 2008,
+          "rating": 8.1,
+          "url": "https://mkvcinemas.bio/a-wednesday-2008-hindi-movie-brrip-esub-300mb-480p-1gb-720p/"
+        },
+        {
+          "id": 3,
+          "name": "Ugly",
+          "year": 2013,
+          "rating": 7.9,
+          "url": "https://youtu.be/FwU45h5Tang"
+        },
+        {
+          "id": 4,
+          "name": "Madras Cafe",
+          "year": 2013,
+          "rating": 7.6,
+          "url": "https://mkvcinemas.bio/madras-cafe-2013-hindi-movie-bluray-300mb-480p-1gb-720p-3gb-1080p-f/"
+        },
+        {
+          "id": 5,
+          "name": "Table no.21",
+          "year": 2013,
+          "rating": 7.2,
+          "url": "https://mkvcinemas.bio/table-no-21-2013-hindi-movie-webrip-300mb-480p-1gb-720p-d/"
+        }
+      ]
+    },
+    {
+      "id": "Comedy",
+      "data": [
+        {
+          "id": 1,
+          "name": "Golmal-Fun unlimited",
+          "year": 2006,
+          "rating": 7.4,
+          "url": "https://mkvcinemas.bio/golmaal-fun-unlimited-2006-dvdrip-400mb-480p/"
+        },
+        {
+          "id": 2,
+          "name": "Hera Pheri",
+          "year": 2000,
+          "rating": 8.9,
+          "url": "https://mkvcinemas.bio/hera-pheri-2000-hindi-movie-amzn-webrip-300mb-480p-1gb-720p-3gb-5gb-1080p/"
+        },
+        {
+          "id": 3,
+          "name": "Mallamal Weekly",
+          "year": 2006,
+          "rating": 7,
+          "url": "https://mkvcinemas.bio/malamaal-weekly-2006-hindi-movie-amzn-webrip-300mb-480p-1gb-720p-3gb-6gb-1080p/"
+        },
+        {
+          "id": 4,
+          "name": "HouseFull",
+          "year": 2010,
+          "rating": 5.5,
+          "url": "https://mkvcinemas.bio/housefull-2010-dvdrip-400mb-480p-b/"
+        },
+        {
+          "id": 5,
+          "name": "Hungama",
+          "year": 2003,
+          "rating": 7.6,
+          "url": "https://youtu.be/55sUflTkuVY"
+        }
+      ]
+    },
+    {
+      "id": "Horror",
+      "data": [
+        {
+          "id": 1,
+          "name": "13b",
+          "year": 2009,
+          "rating": 7.3,
+          "url": "https://mkvcinemas.bio/13b-fear-has-a-new-address-yavarum-nalam-2009-amzn-webrip-south-movie-hindi-dubbed-400mb-480p-1-2gb-720p-4gb-12gb-1080p/"
+        },
+        {
+          "id": 2,
+          "name": "Pizza",
+          "year": 2013,
+          "rating": 8,
+          "url": "https://youtu.be/mEevHvYZJok"
+        },
+        {
+          "id": 3,
+          "name": "404-No Error Found",
+          "year": 2011,
+          "rating": 7.3,
+          "url": "https://youtu.be/CfZ2B8SU7fc"
+        },
+        {
+          "id": 4,
+          "name": "Darna mana hai",
+          "year": 2003,
+          "rating": 6.3,
+          "url": "https://youtu.be/_1UxiM29VU4"
+        },
+        {
+          "id": 5,
+          "name": "Tumbaad",
+          "year": 2018,
+          "rating": 8.2,
+          "url": "https://mkvcinemas.bio/tumbbad-2018-hindi-movie-dvdrip-300mb-480p-1gb-720p-d/"
+        }
+      ]
+    }
+  ]
+}
