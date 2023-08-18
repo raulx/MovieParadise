@@ -12,6 +12,28 @@ export default function App() {
     MyContext();
 
   const movieData = data.data;
+
+  //configurating for sortable table
+  const config = [
+    { label: "S.No", render: (movie) => movie.id },
+    { label: "Movie", render: (movie) => movie.name },
+    {
+      label: "Year",
+      render: (movie) => movie.year,
+      sortValue: (movie) => movie.year,
+    },
+    {
+      label: "Rating",
+      render: (movie) => movie.rating,
+      sortValue: (movie) => movie.rating,
+    },
+    {
+      label: "Download",
+      render: (movie) => <a href={movie.url}>Download/Watch</a>,
+    },
+  ];
+
+  //this two arrays has nothing to do with the sortable table these are for dropdown.
   const movieType = [
     { name: "Hollywood", id: 1 },
     { name: "Bollywood", id: 2 },
@@ -51,7 +73,7 @@ export default function App() {
         <div className="vpn-note">
           <span>Note:Use Vpn if download link does not open.</span>
         </div>
-        {data.data && <Table data={movieData} />}
+        {data.data && <Table data={movieData} config={config} />}
       </div>
     </div>
   );
