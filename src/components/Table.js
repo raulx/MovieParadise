@@ -21,11 +21,11 @@ function Table({ data }) {
       <table>
         <thead>
           <tr>
-            <th>S.no</th>
+            <th>S.No</th>
             <th>Movie</th>
             <th>Year</th>
-            <th>Imdb rating</th>
-            <th>Download Link</th>
+            <th>rating</th>
+            <th>download</th>
           </tr>
         </thead>
         <tbody>{cells}</tbody>
