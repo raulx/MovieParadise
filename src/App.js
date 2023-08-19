@@ -6,6 +6,7 @@ import Button from "./components/Button";
 import MyContext from "./hooks/myContext";
 
 import Table from "./components/Table";
+import SortableTable from "./components/sortableTable";
 
 export default function App() {
   const { type, genre, handleTypeAction, handleGenreAction, getData, data } =
@@ -18,17 +19,17 @@ export default function App() {
     { label: "S.No", render: (movie) => movie.id },
     { label: "Movie", render: (movie) => movie.name },
     {
-      label: "Year",
+      label: "year",
       render: (movie) => movie.year,
       sortValue: (movie) => movie.year,
     },
     {
-      label: "Rating",
+      label: "rating",
       render: (movie) => movie.rating,
       sortValue: (movie) => movie.rating,
     },
     {
-      label: "Download",
+      label: "download",
       render: (movie) => <a href={movie.url}>Download/Watch</a>,
     },
   ];
@@ -66,14 +67,11 @@ export default function App() {
           />
           <Button onClick={getData}>Search</Button>
         </div>
-        {/* {data.data &&
-          data.data.map((d) => {
-            return <p>{d.name}</p>;
-          })} */}
         <div className="vpn-note">
           <span>Note:Use Vpn if download link does not open.</span>
         </div>
-        {data.data && <Table data={movieData} config={config} />}
+        {/* {data.data && <Table data={movieData} config={config} />} */}
+        {data.data && <SortableTable data={movieData} config={config} />}
       </div>
     </div>
   );

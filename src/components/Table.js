@@ -1,11 +1,16 @@
 import { useState } from "react";
 import { GoArrowDown, GoArrowUp } from "react-icons/go";
+import { Fragment } from "react";
 
 function Table({ data, config }) {
   const renderedHeader = (
     <tr>
       {config.map((column) => {
-        return <th key={column.label}>{column.label}</th>;
+        if (column.header) {
+          return <Fragment key={column.label}>{column.header()}</Fragment>;
+        } else {
+          return <th key={column.label}>{column.label}</th>;
+        }
       })}
     </tr>
   );
@@ -13,7 +18,7 @@ function Table({ data, config }) {
     return (
       <tr key={d.id}>
         {config.map((column) => {
-          return <td>{column.render(d)}</td>;
+          return <td key={column.label}>{column.render(d)}</td>;
         })}
       </tr>
     );
