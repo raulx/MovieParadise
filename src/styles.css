@@ -21,17 +21,22 @@
   margin: 0;
   padding: 0;
 }
+html{
+  font-size: 16px;
+
+}
 
 body{
   box-sizing: border-box;
-  font-size: 62.5%;
   font-family: 'Poppins',sans-serif;
+  background-color: var(--tertiary)
 }
 .container{
   max-width: 1100px;
   margin: 0 auto;
-  height: 1800px;
+  max-height: 1800px;
   background-color:var(--tertiary);
+  overflow: hidden;
 }
 
 .navbar{
@@ -134,14 +139,14 @@ body{
   border-radius: 5px;
 }
 .dropDown{
-  width: 25%;
+  width: 15rem;
 }
 .dropDown-panel{
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 1rem;
-  padding: 5px  1rem;
+  padding: .5rem  1rem;
   border-radius: 5px ;
   text-transform: uppercase;
   color: var(--primary-color);
@@ -155,15 +160,16 @@ body{
   gap: 1rem;
   margin: 3rem auto;
   cursor: pointer;
-  height: 200px;
+  height: 20rem;
 }
 .dropDown-panel:hover{
   background-color: var(--light);
   color: var(--tertiary)
 }
 .btn{
-  margin-top: 10px;
+  margin-top: 1rem;
   padding: 1rem 1.5rem;
+  font-size: 1rem;
   height: 3rem;
   cursor: pointer;
   border: none;
@@ -183,7 +189,7 @@ body{
 }
 .dropDown-list li{
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: .5rem 1rem;
   transition: all .2s;
   color: var(--primary-color);
 }
@@ -205,7 +211,7 @@ body{
   border-collapse: collapse;
   font-size: 1rem;
 
-  padding: 10px;
+  padding: 1rem;
 }
 th{
   color: var(--primary-color);
@@ -228,7 +234,7 @@ th{
 }
 .sortable{
   display: flex;
-  gap: 10px;
+  gap: 1rem;
   cursor: pointer;
 }
 @keyframes animate-vpn-note{
@@ -280,4 +286,34 @@ th{
     color: yellowgreen;
   }
   
+}
+
+@media(max-width:870px){
+  html{
+    font-size: 14px;
+  }
+}
+@media(max-width:770px){
+  html{
+    font-size: 12px;
+  }
+  /* .container{
+    height: 100vh;
+  } */
+}
+
+@media(max-width:470px){
+  html{
+    font-size: 10px;
+  }
+}
+@media(max-width:400px){
+  html{
+    font-size: 8px;
+  }
+}
+@media(max-width:300px){
+  html{
+    font-size:6px;
+  }
 }
