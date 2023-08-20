@@ -17,7 +17,10 @@ function Provider({ children }) {
   const getData = async function () {
     let result;
     try {
-      const fetch = await axios.get(`http://127.0.0.1:3001/${type}/${genre}`);
+      // const fetch = await axios.get(`http://127.0.0.1:3001/${type}/${genre}`);
+      const fetch = await axios.get(
+        `https://movieparadisemockdb.onrender.com/${genre}`
+      );
       result = await fetch.data;
     } catch (err) {
       result = new Error("Something went wrong..");
