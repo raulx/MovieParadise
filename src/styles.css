@@ -237,6 +237,31 @@ th{
   gap: 1rem;
   cursor: pointer;
 }
+.skeleton {
+  width: 80%;
+  margin: 3rem auto;
+  height: 500px; /* Adjust the height as needed */
+  background-color: var(--primary-color); /* Background color of the skeleton */
+  border-radius: 4px; /* Rounded corners for a softer look */
+  animation: pulse 2s infinite; /* Animation to create a pulsating effect */
+}
+.error-box{
+  width:80%;
+  margin:3rem auto;
+  height:200px;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
 @keyframes animate-vpn-note{
   0%{
     transform: translate(-100%);

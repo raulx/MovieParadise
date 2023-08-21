@@ -4,13 +4,22 @@ import Header from "./components/Header";
 import DropDown from "./components/DropDown";
 import Button from "./components/Button";
 import MyContext from "./hooks/myContext";
-
+import Error from "./components/Error";
 import Table from "./components/Table";
+import Skeleton from "./components/Skeleton";
 import SortableTable from "./components/sortableTable";
 
 export default function App() {
-  const { type, genre, handleTypeAction, handleGenreAction, getData, data } =
-    MyContext();
+  const {
+    type,
+    genre,
+    handleTypeAction,
+    handleGenreAction,
+    getData,
+    data,
+    isError,
+    isFetching,
+  } = MyContext();
 
   const movieData = data.data;
 
@@ -71,7 +80,14 @@ export default function App() {
           <span>Note:Use Vpn if download link does not open.</span>
         </div>
         {/* {data.data && <Table data={movieData} config={config} />} */}
-        {data.data && <SortableTable data={movieData} config={config} />}
+        {/* {data.data && <SortableTable data={movieData} config={config} />} */}
+        {isFetching ? (
+          <Skeleton />
+        ) : isError.status ? (
+          <Error msg={isError.message} />
+        ) : (
+          data.data && <SortableTable data={movieData} config={config} />
+        )}
       </div>
     </div>
   );
